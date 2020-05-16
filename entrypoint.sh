@@ -18,7 +18,7 @@ node /checkout.js
 # Install crawler dependencies
 echo "Installing crawler dependencies..."
 cd /crawler
-npm install
+yarn && yarn start
 
 # Clone workspace
 echo "Cloning workspace..."
